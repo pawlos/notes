@@ -36,7 +36,7 @@ Looking at this matrix, we can also identify specific things that code posses. I
 
 Metrics is next one that has a purpose of visualizing pure numerical value in a nice, more appealing (and thus readable) way. We can select what levels we can work on (assembly, namespace, type - or more granular like field or method) and what type of metric we will be looking at. It is different depending on the level but for example we can look at abstractness of our assemblies or how meny methods are in our types and if that correlates with Lack of cohesion of our type.
 
-![](metris.png)
+![](metrics.png)
 
 
 Also, I didn’t mention that but nDepend doesn’t need your code to do its job. It can extract all the necessary information from binaries and PDBs.
